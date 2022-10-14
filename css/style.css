@@ -9,9 +9,9 @@ body, html {
 }
 
 .container, h1 {
-  width: 80%;
+  width: 30%;
   max-width: 600px;
-  min-width: 400px;
+  min-width: 200px;
   padding: 10px;
   margin: 10px auto;
 }
@@ -32,18 +32,40 @@ img:hover {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
+  
 }
 
 .indifferent {
   border: 1px solid #aaaa00;
   box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
+  
 }
 
 .dubious {
   border: 1px solid #aa2222;
   box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
+  
+}
+.column {
+width:250px;
+
+}
+.small-img {
+width:80px;
+height:80px;
+padding:0px;
+margin:0px;
+}
+.med-img {
+  float:left;
+width:160px;
+height:160px;
+}
+.large-img {
+width:240px;
+height:240px;
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
